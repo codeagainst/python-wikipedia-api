@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "python-wikipedia-api"
+version = "0.1.0"
+description = "Python Wikipedia API project for learning a more powerful python tooling"
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/codeagainst/python-wikipedia-api"
+repository = "https://github.com/codeagainst/python-wikipedia-api"
+keywords = ["wikipedia"]
+authors = ["codeagainst <codeagainst@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+click = "^8.0.3"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.scripts]
+python-wikipedia-api = "python_wikipedia_api.console:main"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
